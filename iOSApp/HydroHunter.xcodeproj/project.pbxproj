@@ -14,6 +14,7 @@
 		181430342B7D662C001CED17 /* HydroHunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181430332B7D662C001CED17 /* HydroHunterTests.swift */; };
 		1814303E2B7D662C001CED17 /* HydroHunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814303D2B7D662C001CED17 /* HydroHunterUITests.swift */; };
 		181430402B7D662C001CED17 /* HydroHunterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814303F2B7D662C001CED17 /* HydroHunterUITestsLaunchTests.swift */; };
+		184521122B8AC225003833BF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184521112B8AC225003833BF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		181430392B7D662C001CED17 /* HydroHunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroHunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1814303D2B7D662C001CED17 /* HydroHunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHunterUITests.swift; sourceTree = "<group>"; };
 		1814303F2B7D662C001CED17 /* HydroHunterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHunterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		184521112B8AC225003833BF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				181430222B7D662A001CED17 /* HydroHunterApp.swift */,
+				184521112B8AC225003833BF /* MapView.swift */,
 				181430242B7D662A001CED17 /* ContentView.swift */,
 				181430262B7D662B001CED17 /* Assets.xcassets */,
 				181430282B7D662B001CED17 /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181430252B7D662A001CED17 /* ContentView.swift in Sources */,
+				184521122B8AC225003833BF /* MapView.swift in Sources */,
 				181430232B7D662A001CED17 /* HydroHunterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
